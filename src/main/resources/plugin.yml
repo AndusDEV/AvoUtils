@@ -1,0 +1,14 @@
+name: AvocadoUtils
+version: '${project.version}'
+main: pl.andus.avocado.Avocado
+authors: [ Andus ]
+description: A pretty basic utils for Minecraft server
+website: https://andus.dev
+
+commands:
+  avout:
+    description: Shows info about Avocado Plugin
+    permission: avo.avout
+  avo:
+    description: Shows all Avocado Commands
+    permission: avo.main
